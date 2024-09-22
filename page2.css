@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa; /* Light lavender */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f6fb; /* Warna biru muda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    color: #35477d;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.photo-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2 em {
+    font-style: italic;
+    color: #4e73df; /* Biru */
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-creation {
+    background-color: #f2856b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.btn-creation:hover {
+    background-color: #d96b52;
+}
