@@ -6,84 +6,77 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6e6fa; /* Light lavender */
+    background: #DADBFD;
+    color: #254268;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-}
-
-.team-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f5f6fb; /* Warna biru muda */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    height: 100vh;
 }
 
 h1 {
-    font-family: 'Georgia', serif;
+    font-family: "Poltawski Nowy", serif;
     font-size: 2.5rem;
     color: #35477d;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .team-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    gap: 250px;
 }
 
 .team-member {
-    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 300px;
     margin: 20px;
-    text-align: center;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
 }
 
 .photo-placeholder {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     background-color: #d3d3d3;
     border-radius: 10px;
     margin: 0 auto 20px auto;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-h2 em {
+p em {
     font-style: italic;
-    color: #4e73df; /* Biru */
+    color: #000000;
+    font-size: 14px;
 }
 
 p {
     margin-bottom: 15px;
-    color: #555;
+    color: #000000;
+    font-size: 12px;
 }
 
 p strong {
     font-weight: bold;
-    color: #333;
+    color: #000000;
 }
 
-.btn-creation {
-    background-color: #f2856b;
+.button-c {
+    background-color: #EA785B;
+    display: block;
+    margin: 20px auto 0 auto;
     color: white;
-    padding: 10px 20px;
     border: none;
+    padding: 5px 10px;
     border-radius: 25px;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 5px #6e6e6e, 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.btn-creation:hover {
+.button-c:hover {
     background-color: #d96b52;
 }
