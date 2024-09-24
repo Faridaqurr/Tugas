@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #DADBFD;
+    background: linear-gradient(to bottom, #DADBFD 35%, #FFD1BC 100%);
     color: #254268;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ p strong {
 }
 
 button a{
-    color:#DADBFD;
+    color:#ffffff;
 }
 
 .button-c:hover {
