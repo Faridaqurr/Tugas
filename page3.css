@@ -15,14 +15,6 @@ body {
     height: 100vh;
 }
 
-h1 {
-    font-family: "Poltawski Nowy", serif;
-    font-size: 2.5rem;
-    color: #35477d;
-    margin-top: 40px;
-    text-align: center;
-}
-
 .team-container {
     display: flex;
     justify-content: space-around;
