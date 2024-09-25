@@ -34,17 +34,13 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
-    margin-bottom: 10px;
-}
-
 nav ul li a {
     text-decoration: none;
     color: #254268;
     font-weight: bold;
     padding: 10px 50px;
     background-color: #D9D9D9;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
     display: inline-block;
 }
 
@@ -58,7 +54,12 @@ nav ul li:last-child a {
 }
 
 nav ul li a:hover {
-    background-color: #d4d4d4;
+    background-color: #FFEBB1;
+}
+
+nav ul li a:active {
+    transform: translateY(5px); 
+    box-shadow: 0 1px 0 #a0a0a0, 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .header-text {
@@ -101,7 +102,7 @@ nav ul li a:hover {
 }
 
 .header-text button:hover {
-    background-color: #2b3541;
+    background-color: #333d54;
 }
 
 .awan-kiri-1 {
@@ -125,7 +126,7 @@ nav ul li a:hover {
 
 .awan-kiri-2 {
     position: absolute;
-    top: 470px;
+    top: 450px;
     left: 130px;
     transform-origin: center;
     width: 410px;
@@ -140,6 +141,8 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .page2 h1 {
@@ -154,7 +157,7 @@ nav ul li a:hover {
 .team-gabungan {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 165px;
     flex-wrap: wrap;
 }
 
@@ -206,6 +209,34 @@ nav ul li a:hover {
     background-color: #d96b52;
 }
 
+.awan-kiri-3 {
+    position: absolute; 
+    top: 35px;
+    transform-origin: center;
+    left: 1px;
+    width: 1300px;
+    height: 150px;
+    z-index: 1;
+}
+
+.home {
+    position: absolute;
+    top: 580px;
+    right: 100px;
+    transform-origin: right;
+    width: 30px;
+    height: 30px;
+}
+
+.scroll-down {
+    position: absolute;
+    top: 580px;
+    right: 40px;
+    transform-origin: right;
+    width: 30px;
+    height: 30px;
+}
+
 .page3 {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #C8CAF2 45%, #FFD1BC 100%);
@@ -220,7 +251,7 @@ nav ul li a:hover {
 .page3 .team-container {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 165px;
     flex-wrap: wrap;
 }
 
@@ -270,4 +301,13 @@ nav ul li a:hover {
 
 .page3 .button-c:hover {
     background-color: #d96b52;
+}
+
+.home-down {
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+    transform-origin: right;
+    width: 30px;
+    height: 30px;
 }
