@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.page1 {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #FFEBB1, #C8CAF2);
     color: #254268;
@@ -58,11 +58,12 @@ nav ul li a:hover {
     background-color: #d4d4d4;
 }
 
-main {
+.header-text {
     text-align: center;
+    margin-top: 100px;
 }
 
-h1 {
+.header-text h1 {
     font-size: 70px;
     font-family: "Poltawski Nowy", serif;
     margin-bottom: 20px;
@@ -72,12 +73,7 @@ h1 {
     font-weight: 700;
 }
 
-.highlight {
-    font-style: italic;
-    color: #4e73df;
-}
-
-p {
+.header-text p {
     margin-bottom: 40px;
     color: #000000;
     font-family: "Poppins", sans-serif;
@@ -86,7 +82,7 @@ p {
     font-style: normal;
 }
 
-button {
+.header-text button {
     background-color: #254268;
     color: white;
     border: none;
@@ -99,6 +95,146 @@ button {
     box-shadow: 0 3px 5px #000000, 0 1px rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
+.header-text button:hover {
     background-color: #2b3541;
+}
+
+.page2 {
+    font-family: Arial, sans-serif;
+    background: #C8CAF2;
+    color: #254268;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page2 h1 {
+    font-family: "Poltawski Nowy", serif;
+    font-size: 2.5rem;
+    color: #35477d;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team-gabungan {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.page2 p em {
+    font-style: italic;
+    color: #000000;
+    font-size: 14px;
+}
+
+.page2 p {
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.page2 p strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+.page2 .button-c {
+    background-color: #EA785B;
+    display: block;
+    margin: 20px auto 0 auto;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 5px #6e6e6e, 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.page2 button a{
+    color:#ffffff;
+}
+
+.page2 .button-c:hover {
+    background-color: #d96b52;
+}
+
+.page3 {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #C8CAF2 35%, #FFD1BC 100%);
+    color: #254268;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page3 .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.page3 .team-member {
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.page3 p em {
+    font-style: italic;
+    color: #000000;
+    font-size: 14px;
+}
+
+.page3 p {
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.page3 p strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+.page3 .button-c {
+    background-color: #EA785B;
+    display: block;
+    margin: 20px auto 0 auto;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 5px #6e6e6e, 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.page3 button a{
+    color:#ffffff;
+}
+
+.page3 .button-c:hover {
+    background-color: #d96b52;
 }
