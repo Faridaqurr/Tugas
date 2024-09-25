@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .page1 {
@@ -13,6 +14,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 header {
@@ -46,12 +49,12 @@ nav ul li a {
 }
 
 nav ul li:first-child a {
-    border-radius: 50px 0 0 50px; /* Sudut melengkung kiri */
-    border-left: none; /* Hilangkan garis pembatas kiri */
+    border-radius: 50px 0 0 50px; 
+    border-left: none; 
 }
 
 nav ul li:last-child a {
-    border-radius: 0 50px 50px 0; /* Sudut melengkung kanan */
+    border-radius: 0 50px 50px 0; 
 }
 
 nav ul li a:hover {
@@ -69,11 +72,12 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.bold {
+.judul {
     font-weight: 700;
 }
 
 .header-text p {
+    margin-top: 10px;
     margin-bottom: 40px;
     color: #000000;
     font-family: "Poppins", sans-serif;
@@ -87,6 +91,7 @@ nav ul li a:hover {
     color: white;
     border: none;
     padding: 10px 30px;
+    margin-top: 10px;
     border-radius: 25px;
     font-size: 1em;
     font-family: "Poppins", sans-serif;
@@ -99,6 +104,33 @@ nav ul li a:hover {
     background-color: #2b3541;
 }
 
+.awan-kiri-1 {
+    position: absolute; 
+    top: 70px; 
+    left: -90px;
+    transform-origin: center;
+    width: 500px;
+    height: 110px;
+}
+
+.awan-kanan-1{
+    position: absolute;
+    top: 125px;
+    right: -140px;
+    transform-origin: center;
+    transform: rotate(2deg);
+    width: 500px;
+    height: 110px;
+}
+
+.awan-kiri-2 {
+    position: absolute;
+    top: 470px;
+    left: 130px;
+    transform-origin: center;
+    width: 410px;
+    height: 90px;
+}
 .page2 {
     font-family: Arial, sans-serif;
     background: #C8CAF2;
@@ -114,7 +146,8 @@ nav ul li a:hover {
     font-family: "Poltawski Nowy", serif;
     font-size: 2.5rem;
     color: #35477d;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -175,7 +208,7 @@ nav ul li a:hover {
 
 .page3 {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #C8CAF2 35%, #FFD1BC 100%);
+    background: linear-gradient(to bottom, #C8CAF2 45%, #FFD1BC 100%);
     color: #254268;
     display: flex;
     flex-direction: column;
