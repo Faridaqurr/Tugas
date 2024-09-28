@@ -311,6 +311,32 @@ nav ul li a:active {
   background-color: #d96b52;
 }
 
+.home-down1 {
+  position: absolute;
+  right: 100px;
+  margin-top: 550px;
+  transform-origin: right;
+  width: 30px;
+  height: 30px;
+}
+
+.home-down1:hover {
+  transform: scale(1.1);
+}
+
+.scroll-down2 {
+  position: absolute;
+  top: 1838px;
+  right: 40px;
+  transform-origin: right;
+  width: 30px;
+  height: 30px;
+}
+
+.scroll-down2:hover{
+  transform: scale(1.1);
+}
+
 .page4 {
   background: linear-gradient(to bottom, #FFD1BC 22%, #FFF0E8 100%);
   color: #254268;
@@ -324,6 +350,10 @@ nav ul li a:active {
   width: 100%;
   max-width: 900px;
   margin: 0 auto 5px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .head-last {
@@ -362,15 +392,15 @@ nav ul li a:active {
   display: block;
 }
 
-.home-down {
+.home-down2 {
   position: absolute;
-  right: 100px;
+  right: 40px;
   margin-top: 550px;
   transform-origin: right;
   width: 30px;
   height: 30px;
 }
 
-.home-down:hover {
+.home-down2:hover {
   transform: scale(1.1);
 }
