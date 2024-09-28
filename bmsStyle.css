@@ -311,29 +311,29 @@ nav ul li a:active {
   background-color: #d96b52;
 }
 
-.home-down1 {
+.home1 {
   position: absolute;
+  top: 1838px;
   right: 100px;
-  margin-top: 550px;
   transform-origin: right;
   width: 30px;
   height: 30px;
 }
 
-.home-down1:hover {
+.home1:hover{
   transform: scale(1.1);
 }
 
-.scroll-down2 {
+.scroll-down1 {
   position: absolute;
-  top: 1838px;
+  top: 580px;
   right: 40px;
   transform-origin: right;
   width: 30px;
   height: 30px;
 }
 
-.scroll-down2:hover{
+.scroll-down1:hover{
   transform: scale(1.1);
 }
 
